@@ -1,4 +1,4 @@
-package model
+package br.com.deliapp.ibumethods.model
 
 sealed trait RagerAddition {
   def calculateRagerAddition(addition: Addition, boilGravity: Double, finalVolume: Int): Float = {
